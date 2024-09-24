@@ -1,13 +1,96 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  text-align: center;
+  margin-top: 0;
+  background-image: linear-gradient(to bottom right, #e2ae84, #d18a50, #e07a26);
+  padding-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding: 0;
+  min-height: 100vh;
 }
+.center-box{
+  font-family: "Amita", serif;
+  font-weight: bolder;
+  font-style: normal;
+}
+.card-holder{
+  display: inline;
+  margin: 5px;
+  margin-bottom: 20px;
+}
+.card-button:hover{
+  box-shadow: 0 0 5px 5px white;
+  cursor: pointer;
+}
+.settings{
+  width: 50px;
+  height: 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 3%;
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+.setting-button{
+  border: none;
+  background-color: #d18a50;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  margin-right: 3%;
+}
+.choosen-card{
+  margin: 20px 0;
+}
+.navbar-brand{
+  font-family: "Amita", serif;
+  font-weight: bolder;
+  font-style: normal;
+  margin-right: 5%;
+  border: solid;
+  border-radius: 15px;
+  padding: 1% 2% 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.navbar-brand:hover{
+  color: white;
+  border-color: white;
+}
+.reset-icon:hover{
+  cursor: pointer;
+  color: white;
+}
+.reading-content{
+  color: white;
+}
+.button-container{
+  margin: 2%;
+}
+.row{
+  margin: 0 7%;
+}
+span{
+  color: black;
+}
+.reset-text{
+  color: white;
+  background-color: burlywood;
+  border-radius: 10px;
+  display: inline;
+  text-align: right;
+}
+.footer{
+  margin-top: auto;
+  padding-top: 3%;
+  margin-bottom: 0;
+}
+.contact-icons{
+  color: white;
+  margin: 0 1%;
+}
+.contact-icons:hover{
+  color: burlywood;
 }
