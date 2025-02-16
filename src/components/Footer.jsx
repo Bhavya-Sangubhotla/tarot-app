@@ -2,7 +2,7 @@ import react from "react";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <div className="footer">
       <a className="contact-icons" href="https://x.com/">
         <i className="fa-brands fa-twitter"></i>
       </a>
@@ -17,7 +17,7 @@ function Footer() {
       </a>
 
       <p>© Copyright PickACard</p>
-    </footer>
+    </div>
   );
 }
 export default Footer;

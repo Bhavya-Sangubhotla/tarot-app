@@ -4,6 +4,7 @@ import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar(props) {
   const [resetToggle, setResetToggle] = useState(false);
+  const [showToggle, setShowToggle] = useState(false);
 
   function handleResetClick() {
     props.resetClick();
@@ -15,11 +16,29 @@ function Navbar(props) {
     setResetToggle(false);
   }
 
+  function handleDropdownClick() {
+    setShowToggle((prev) => {
+      return !prev;
+    });
+    console.log(showToggle);
+  }
+
   return (
     <react.Fragment>
       <div className="navbar">
         <div className="navbar-brand">
-          <h4>Pick a Card</h4>
+          <h4>tarot</h4>
+        </div>
+        <div className="dropdown">
+          <button className="dropbtn" onClick={handleDropdownClick}>
+            Options
+          </button>
+          {showToggle && (
+            <div className="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+            </div>
+          )}
         </div>
         <div>
           <button

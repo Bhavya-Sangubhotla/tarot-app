@@ -13,6 +13,7 @@ body{
   font-family: "Amita", serif;
   font-weight: bolder;
   font-style: normal;
+  flex: 1;
 }
 .card-holder{
   display: inline;
@@ -32,7 +33,7 @@ body{
   justify-content: right;
   margin-bottom: 3%;
   margin-top: 0;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .setting-button{
   border: none;
@@ -88,7 +89,7 @@ span{
   margin-bottom: 0;
 }
 .contact-icons{
-  color: white;
+  color: black;
   margin: 0 1%;
 }
 .contact-icons:hover{

@@ -63,7 +63,7 @@ function App(){
             : <Reading title={data.title} key={data.key} image={data.image} description={data.description} meaning={data.meaning}/>
             }
             
-            
+    
             </div>
             <Footer />
         </React.Fragment>
