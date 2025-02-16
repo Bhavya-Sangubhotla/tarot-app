@@ -1,9 +1,9 @@
 {
+  "homepage": "http://Bhavya-Sangubhotla.github.io/tarot-app",
   "name": "tarot-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "homepage": "http://bhavya-sangubhotla.github.io/tarot-app/",
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
